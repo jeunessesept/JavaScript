@@ -1,6 +1,6 @@
-const Dice1 = Math.floor(Math.random()* 10) +1;
-const Dice2 = Math.floor(Math.random()* 10) +1;
-const Dice3 = Math.floor(Math.random()* 10) +1;
+const Dice1 = Math.floor(Math.random()* 6) +1;
+const Dice2 = Math.floor(Math.random()* 6) +1;
+const Dice3 = Math.floor(Math.random()* 6) +1;
 
 if (Dice1 === Dice2 || Dice1 === Dice3 || Dice2 === Dice3){
     console.log("two")
